@@ -125,7 +125,8 @@ header p{
 }
 
 .about, .method, .clients, .contact{
-  /*Your Code Here*/
+  grid-column: 2/auto;
+
 
 }
 
@@ -135,24 +136,24 @@ header p{
 }
 
 .about, .about-image{
-   /*Your Code Here*/
+   grid-row: 2/auto
 
 }
 
 .method, .method-image{
-   /*Your Code Here*/
+  grid-row: 3/auto
 
 }
 
 
 .clients, .clients-image{
-    /*Your Code Here*/
+  grid-row: 4/auto
 
 }
 
 
 .contact, .contact-image{
-    /*Your Code Here*/
+  grid-row: 5/auto
 
 }
 
