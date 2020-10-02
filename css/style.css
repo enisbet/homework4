@@ -59,7 +59,7 @@ nav a:hover{
 
 .skip a:focus{
   position:absolute;
-  
+
 }
 
 /*Your Code Here*/
@@ -67,6 +67,9 @@ nav a:hover{
 
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
+:focus{
+  border: 2px solid;
+}
 
 
 
