@@ -52,9 +52,8 @@ nav a:hover{
   z-index: 1;
 
   /*Your code here*/
-  display:none;
   position: absolute;
-  bottom: 40px;
+  top: -40px;
 
 }
 
