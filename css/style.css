@@ -33,13 +33,14 @@ nav a{
   text-decoration: none; 
 }
 
+/*Code Below*/
+/*Write selector/rule property to add an underline when
+links in the navigation are in the hover or focus state.*/
 nav a:hover{
   text-decoration: underline;
 }
 
-/*Your Code Here*/
-/*Write selector/rule property to add an underline when
-links in the navigation are in the hover or focus state.*/
+
 
 
 .skip a{
@@ -51,6 +52,14 @@ links in the navigation are in the hover or focus state.*/
   z-index: 1;
 
   /*Your code here*/
+  position: absolute;
+  bottom: 40px;
+
+}
+
+.skip a:focus{
+  position:absolute;
+  
 }
 
 /*Your Code Here*/
@@ -58,6 +67,7 @@ links in the navigation are in the hover or focus state.*/
 
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
+
 
 
 nav{
