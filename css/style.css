@@ -52,8 +52,9 @@ nav a:hover{
   z-index: 1;
 
   /*Your code here*/
+  display:none;
   position: absolute;
-  bottom: 40px;
+  top: 40px;
 
 }
 
@@ -64,6 +65,7 @@ nav a:hover{
 
 /*Your Code Here*/
 /*Write selector/rule property to position the skip class element*/
+
 
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
