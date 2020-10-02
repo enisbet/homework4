@@ -131,29 +131,31 @@ header p{
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
-  /*Your Code Here*/
+  grid-column: 1/-1;
+  max-height: 700px;
+  overflow: hidden;
 
 }
 
 .about, .about-image{
-   grid-row: 2/auto
+   grid-row: 2/auto;
 
 }
 
 .method, .method-image{
-  grid-row: 3/auto
+  grid-row: 3/auto;
 
 }
 
 
 .clients, .clients-image{
-  grid-row: 4/auto
+  grid-row: 4/auto;
 
 }
 
 
 .contact, .contact-image{
-  grid-row: 5/auto
+  grid-row: 5/auto;
 
 }
 
@@ -162,6 +164,9 @@ background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
+  text-align:center;
+  margin-left:auto;
+  margin-right: auto;
 
 }
 
